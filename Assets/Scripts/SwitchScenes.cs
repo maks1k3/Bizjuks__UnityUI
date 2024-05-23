@@ -8,7 +8,7 @@ public class SwitchScenes : MonoBehaviour
 
     public void ToFirstScene()
     {
-        SceneManager.LoadScene("FirstScene", LoadSceneMode.Single);
+        SceneManager.LoadScene(0, LoadSceneMode.Single);
     }
 
     public void ToSecondScene()
