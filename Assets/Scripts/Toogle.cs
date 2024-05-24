@@ -13,6 +13,9 @@ public class Toogle : MonoBehaviour
     public GameObject krekls;
     public GameObject krekls1;
     public GameObject krekls2;
+    public GameObject bumba;
+    public GameObject bumba1;
+    public GameObject bumba2;
 
     public void keponuAtelosana(bool vertiba)
     {
@@ -31,5 +34,11 @@ public class Toogle : MonoBehaviour
         krekls.SetActive(vertiba);
         krekls1.SetActive(vertiba);
         krekls2.SetActive(vertiba);
+    }
+    public void bumbuAtelosana(bool vertiba)
+    {
+        bumba.SetActive(vertiba);
+        bumba1.SetActive(vertiba);
+        bumba2.SetActive(vertiba);
     }
 }

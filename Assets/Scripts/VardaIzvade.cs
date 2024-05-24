@@ -19,7 +19,7 @@ public class VardaIzvade : MonoBehaviour
         string vards = inputField.text;
         int dzimsanasG = int.Parse(inputField1.text);
         int vecums = 2024 - dzimsanasG;
-        teksts = $"{vards} ir {vecums} gadus vecs!";
+        teksts = "Supervaronis "+vards+ " ir "+ vecums+" gadus vecs!";
 
         Debug.Log("ok");
         izvade.text = teksts;
